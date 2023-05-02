@@ -13,12 +13,6 @@ Para executar o programa, siga as seguintes instruções:
     $ docker run jatabara/fullcycle:go
     ```
 
-2. Pode-se visualizar novamente o output do programa através do seguinte comando:
-
-    ```
-    $ docker logs rocks
-    ```
-
 ## Repositório da imagem no Docker Hub
 
 A imagem resultante deste desafio está disponível no Docker Hub através do link na imagem ↓:
