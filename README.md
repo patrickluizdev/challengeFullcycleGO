@@ -10,17 +10,19 @@ Para executar o programa, siga as seguintes instruções:
 1. Rode o comando abaixo para baixar a imagem e criar um container com o nome "rocks":
 
     ```
-    docker run --name rocks jatabara/fullcycle:go
+    $ docker run jatabara/fullcycle:go
     ```
 
-2. Depois, visualize o output do programa através do seguinte comando:
+2. Depois, pode-se visualizar novamente o output do programa através do seguinte comando:
 
     ```
-    docker logs rocks
+    $ docker logs rocks
     ```
 
 ## Repositório da imagem no Docker Hub
 
 A imagem resultante deste desafio está disponível no Docker Hub através do seguinte link na imagem ↓:
 [![Imagem do Docker Hub](https://github.com/patrickluizdev/challengeFullcycleGO/blob/main/docker.hub.jpg)](https://hub.docker.com/layers/jatabara/fullcycle/go/images/sha256-c73af584b7f469efbf40ab394e3fac42d168dfee0a1dcc31cbd628e9b05108ee?context=repo)
+
+
 
