@@ -1,7 +1,7 @@
 # challengeFullcycleGO
 
 Este é um desafio proposto pela FullCycle para publicar uma imagem no Docker Hub que exiba a mensagem "Full Cycle Rocks!!" utilizando a linguagem Go Lang e conceitos de conteinerização. 
-##### OBSERVAÇÃO: A imagem deve ter menos de 2MB.
+##### OBSERVAÇÃO: A imagem deve ter menos de 2MB e para atingir o objetivo foi utilizando técnicas de multistage builder.
 
 ## Instruções para execução
 
