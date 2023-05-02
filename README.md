@@ -21,7 +21,7 @@ Para executar o programa, siga as seguintes instruções:
 
 ## Repositório da imagem no Docker Hub
 
-A imagem resultante deste desafio está disponível no Docker Hub através do seguinte link na imagem ↓:
+A imagem resultante deste desafio está disponível no Docker Hub através do link na imagem ↓:
 [![Imagem do Docker Hub](https://github.com/patrickluizdev/challengeFullcycleGO/blob/main/docker.hub.jpg)](https://hub.docker.com/layers/jatabara/fullcycle/go/images/sha256-c73af584b7f469efbf40ab394e3fac42d168dfee0a1dcc31cbd628e9b05108ee?context=repo)
 
 
