@@ -1,22 +1,26 @@
 # challengeFullcycleGO
 
-#### Objetivo: Publicar uma imagem no docker hub para exibir o seguinte resultado:
-##### Full Cycle Rocks!!
-####OBSERVAÇÕES:
-#### A imagem precisa ter menos de 2MB;
-#### Utilizar a linguagem Go Lang
-#### A imagem deve imprimir < Full Cycle Rocks!! >
+Este é um desafio proposto pela FullCycle para publicar uma imagem no Docker Hub que exiba a mensagem "Full Cycle Rocks!!" utilizando a linguagem Go Lang e conceitos de conteinerização. 
+##### OBSERVAÇÃO: A imagem deve ter menos de 2MB e para atingir o objetivo foi utilizando técnicas de multistage builder.
 
+## Instruções para execução
 
-##### Para desenvolver o desafio foi utilizado técnicas de multstage builder
+Para executar o programa, siga as seguintes instruções:
 
-#### Para rodar o programa siga as intruções:
+1. Rode o comando abaixo para baixar a imagem e criar um container com o nome "rocks":
 
-docker run --name rocks jatabara/fullcycle
+    ```
+    docker run --name rocks jatabara/fullcycle:go
+    ```
 
-docker logs rocks
+2. Depois, visualize o output do programa através do seguinte comando:
 
-#### Repósitorio da imagem no Hub.Docker
+    ```
+    docker logs rocks
+    ```
 
-https://hub.docker.com/layers/jatabara/fullcycle/go/images/sha256-c73af584b7f469efbf40ab394e3fac42d168dfee0a1dcc31cbd628e9b05108ee?context=repo
+## Repositório da imagem no Docker Hub
+
+A imagem resultante deste desafio está disponível no Docker Hub através do seguinte link na imagem ↓:
+[![Imagem do Docker Hub](https://github.com/patrickluizdev/challengeFullcycleGO/blob/main/docker.hub.jpg)](https://hub.docker.com/layers/jatabara/fullcycle/go/images/sha256-c73af584b7f469efbf40ab394e3fac42d168dfee0a1dcc31cbd628e9b05108ee?context=repo)
 
