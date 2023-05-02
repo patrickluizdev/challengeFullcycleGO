@@ -13,7 +13,7 @@ Para executar o programa, siga as seguintes instruções:
     $ docker run jatabara/fullcycle:go
     ```
 
-2. Depois, pode-se visualizar novamente o output do programa através do seguinte comando:
+2. Pode-se visualizar novamente o output do programa através do seguinte comando:
 
     ```
     $ docker logs rocks
