@@ -10,7 +10,7 @@ Para executar o programa, siga as seguintes instruções:
 1. Rode o comando abaixo para baixar a imagem e criar um container com o nome "rocks":
 
     ```
-    docker run --name rocks jatabara/fullcycle
+    docker run --name rocks jatabara/fullcycle:go
     ```
 
 2. Depois, visualize o output do programa através do seguinte comando:
