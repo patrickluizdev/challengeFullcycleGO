@@ -7,11 +7,18 @@ Este é um desafio proposto pela FullCycle para publicar uma imagem no Docker Hu
 
 Para executar o programa, siga as seguintes instruções:
 
-1. Rode o comando abaixo para baixar a imagem e criar um container com o nome "rocks":
+1. Rode o comando abaixo para utilizar a imagem e criar um container com o nome "rocks":
 
     ```
-    $ docker run jatabara/fullcycle:go
+    $ docker run --name rocks jatabara/fullcycle:go
     ```
+       
+2. Pode-se visualizar novamente o output do programa através do seguinte comando:
+
+    ```
+    $ docker logs rocks
+    ```
+
 
 ## Repositório da imagem no Docker Hub
 
